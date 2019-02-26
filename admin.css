@@ -1,0 +1,124 @@
+body{
+	margin: auto;
+	border: 0;
+	text-align: center;
+	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	background-color: #1a1a1a;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAARklEQVQYV4XQOwoAMAgDUN2cHb3/Id0sFlr68ZP5kUBQRAyaqCpgBx0RUQ0X8sG08UQpfFEII/TBDF2wQht2aEJmNv+pywDNeif1WX9mtQAAAABJRU5ErkJggg==) repeat;
+	color: #FFFFFF;
+	font-size: 1em;
+}
+
+#container {
+  text-align: center;
+}
+
+#logo{
+	max-width: 250px;
+}
+
+#biggerText{
+	font-size: 1.3em;
+}
+#smallerText{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.5em;
+}
+
+h1{
+	font-weight: lighter;
+}
+
+input{
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	box-shadow: 0px 8px 10px -1px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 8px 10px -1px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 0px 8px 10px -1px rgba(0,0,0,0.2);
+	        box-shadow: 0px 8px 10px -1px rgba(0,0,0,0.2);
+}
+
+form{
+	display: inline-block;
+	margin: 0px 16px;
+
+}
+
+#logout_form{
+	display: block;
+}
+
+
+
+
+/*============== Button ================*/
+.myButton {
+	background-color: #434343;
+	cursor: pointer;
+	color: #cccccc;
+	padding: 13px 31px;
+	margin-top: 30px;
+	border: 0;
+	border-radius: 8px;
+}
+.myButton:hover {
+	background-color: #5D5D5D;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#logout{
+	background-color: #2e2e2e;
+	font-size: 0.9em;
+	padding: 8px 31px;
+	margin-top: 40px;
+	border-radius: 4px;
+	box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2);
+	        box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2);
+}
+#logout:hover{
+	background-color: #373737;
+}
+
+/*============== ViewPort ================*/
+
+@viewport{
+	width: device-width;
+	zoom: 1;
+	overflow-y: auto;
+}
+
+@-ms-viewport{
+	width: device-width;
+	zoom: 1;
+	overflow-y: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+	#smallerText{
+		font-size: 0.5em;
+		font-weight: 100;
+	}
+}
+
+@media only screen and (min-height: 700px) {
+    /* For mobile phones: */
+    #container{
+    	position: fixed;
+    	top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+    }
+    #heading{
+		margin-bottom: 60px;
+	}
+}

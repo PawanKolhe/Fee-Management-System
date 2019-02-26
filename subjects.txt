@@ -1,0 +1,7 @@
+s1|10000|Data Structures and Algorithm
+s2|9500|Software Tools
+s3|9000|Digital Circuits
+s4|8500|Discrete Mathematics
+s5|8000|Network Analysis
+s6|7500|Computer Organisation
+s7|2000|Modeling

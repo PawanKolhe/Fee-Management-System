@@ -1,0 +1,100 @@
+body{
+	margin: auto;
+	border: 0;
+	text-align: center;
+	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	background-color: #1a1a1a;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAARklEQVQYV4XQOwoAMAgDUN2cHb3/Id0sFlr68ZP5kUBQRAyaqCpgBx0RUQ0X8sG08UQpfFEII/TBDF2wQht2aEJmNv+pywDNeif1WX9mtQAAAABJRU5ErkJggg==) repeat;
+	color: #FFFFFF;
+	font-size: 1em;
+}
+
+input{
+	display: block;
+	margin: 20px auto;
+	margin-top: 5px;
+	padding: 12px 8px;
+	font-size: 1.2em;
+	border: 1px solid #CCC;
+	background-color: #F8F8F8;
+	border-radius: 4px;
+}
+
+p{
+	text-align: left;
+	margin-bottom: 0;
+}
+
+#container{
+	border-radius: 16px;
+	border-width: 1px;
+	border-color: black;
+	padding: 20px;
+}
+
+#subject_id{
+	background-color: #b9b9b9;
+}
+
+#icon{
+	max-width: 200px;
+	margin-bottom: 20px;
+}
+
+
+/*============== Button ================*/
+.myButton {
+	background-color: #434343;
+	cursor: pointer;
+	color: #cccccc;
+	padding: 13px 31px;
+	margin-top: 30px;
+	border: 0;
+	border-radius: 8px;
+}
+.myButton:hover {
+	background-color: #5D5D5D;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#back{
+	background-color: #2e2e2e;
+	font-size: 0.9em;
+	padding: 8px 31px;
+	margin-top: 40px;
+	border-radius: 4px;
+}
+#back:hover{
+	background-color: #373737;
+}
+
+
+/*============== ViewPort ================*/
+
+@viewport{
+	width: device-width;
+	zoom: 1;
+	overflow-y: auto;
+}
+@-ms-viewport{
+ 	width: device-width;
+ 	zoom: 1;
+	overflow-y: auto;
+}
+
+@media only screen and (min-height: 570px) {
+    /* For mobile phones: */
+    #container{
+    	position: fixed;
+    	top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);*/
+    }
+}

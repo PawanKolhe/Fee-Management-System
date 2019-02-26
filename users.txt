@@ -1,0 +1,8 @@
+0|Sam|sam|sampass|sam@somesite.com
+1|Pete|pete|petepass|pete@somesite.com
+2|John Oliver|john|johnpass|john@somedomain.com
+3|Shantum Agarwal|shantam|shantampass|shamag@gmail.com
+4|Vasu Mistry|vasu|vasupass|vasu5235@gmail.com
+5|Pawan Kolhe|pawan|pawanpass|pawan.kolhe18@gmail.com
+6|Mukesh|mukesh|mukeshpass123A|mukeshpass@coed.svnit.ac.in
+7|Tom Hilt|tommy|Tommy12345|tommy.hilt@nolife.com
